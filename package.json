@@ -1,0 +1,22 @@
+{
+  "name": "react-router-sitemap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate-router": "npx babel-node ./sitemap/router-generator.js",
+    "generate-sitemap": "npx babel-node ./sitemap/sitemap-generator.js",
+    "sitemap": "npm run generate-router && npm run generate-sitemap"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-router-sitemap": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-react": "^7.18.6"
+  }
+}
